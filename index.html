@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>cool</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<style type="text/css">
+		h2{
+			color: white;
+    
+		}
+     video, canvas {
+    position: absolute;
+  }
+
+  pre{
+    position: static;
+    height: 500px;
+        overflow-y: scroll;
+        color: white;
+  
+    
+  }
+  .coll{
+    margin-top: 225px;
+  }
+  li{
+    margin-left: 600px;
+  }
+	</style>
+	<script  src="build/tracking.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="my/call.css"></link>
+</head>
+<body>
+   <div class="demo-frame">
+    <div class="demo-container">
+      <a onclick="printElem(lie)"><h2>print</h2></a>
+      <button id=”snap” onclick="snap()">Take screenshot</button>
+      <input id="input" type="number" name="" placeholder="input data max">
+      <a id="btn" onclick="nad()"><h2>pause</h2></a>
+    	<h2 id="okey"></h2>
+      <video controls id="video" width="600" height="450" preload autoplay loop muted controls></video>
+      <canvas id="canvas" width="600" height="450"></canvas>
+      <canvas id="cool"></canvas>
+  
+    </div>
+  </div>
+  <a class="coll" onclick="fullscreen()"><h2 class="coll">fullscreen</h2></a>
+  <pre id="lie">can</pre>
+  <script  src="build/tracking-min.js"></script>
+  <script type="text/javascript" src="my/main.js"></script>
+  
+
+</body>
+</html>

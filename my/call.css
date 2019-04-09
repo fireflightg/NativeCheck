@@ -1,0 +1,23 @@
+body{
+	background-color: black;
+}
+h2,pre{
+	 font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+}
+h2 {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+  h2:hover{
+      opacity: 0.5;
+      }
+.coll{
+	position: absolute;
+}
+#cool{
+	margin-top: 900px;
+}
